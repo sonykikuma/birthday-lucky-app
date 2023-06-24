@@ -1,0 +1,35 @@
+:root{
+    --primary-color:#1f2937;
+    --light-color:#c084fc;
+
+}
+
+body{
+    background-color: var(--light-color);
+    color: var(--primary-color);
+}
+h1{
+    text-align: center;
+
+}
+.container{
+    margin:auto;
+    width:50%;
+}
+input,label{
+    display: block;
+    margin:0.5rem;
+    padding:0.5rem;
+    font-size: medium;
+    
+}
+.output{
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
+}
+button{
+    margin: 1rem;
+    padding: 1.2rem;
+    border-radius:1rem;
+}

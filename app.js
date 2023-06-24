@@ -3,6 +3,8 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkButton = document.querySelector("#check-number");
 const outputEl= document.querySelector(".output")
 
+outputEl.style.display="none";
+
 
 function compareValues(sum,luckyNumber){
   if(sum%luckyNumber===0){
@@ -18,6 +20,8 @@ outputEl.innerText= "Your birthday is lucky 🥳"
 
 
 const checkBdayIslucky=()=> {
+  outputEl.style.display="block";
+  
     const dob = dateOfBirth.value;
     const sum = calculateSum(dob);
 
